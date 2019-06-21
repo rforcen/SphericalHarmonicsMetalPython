@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4EE9450B22BCCEED008400CF /* SH_python_wrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE944FE22BCCEED008400CF /* SH_python_wrapper.m */; };
+		4EE9450C22BCCEED008400CF /* MetalDevice.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9450122BCCEED008400CF /* MetalDevice.mm */; };
+		4EE9450D22BCCEED008400CF /* VectUtils.c in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9450222BCCEED008400CF /* VectUtils.c */; };
+		4EE9450E22BCCEED008400CF /* SphericalHarmonics.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9450422BCCEED008400CF /* SphericalHarmonics.m */; };
+		4EE9450F22BCCEED008400CF /* SphericalHarmonics.metal in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9450522BCCEED008400CF /* SphericalHarmonics.metal */; };
+		4EE9451022BCCEED008400CF /* SHCodes.c in Sources */ = {isa = PBXBuildFile; fileRef = 4EE9450722BCCEED008400CF /* SHCodes.c */; };
+		4EE9451322BCCF19008400CF /* libpython3.7m.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EE9451222BCCF19008400CF /* libpython3.7m.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4EE944F422BCCEBA008400CF /* SphericalHarmonicsMetalPython.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SphericalHarmonicsMetalPython.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE944F722BCCEBA008400CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EE944FE22BCCEED008400CF /* SH_python_wrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SH_python_wrapper.m; sourceTree = "<group>"; };
+		4EE9450022BCCEED008400CF /* SphericalHarmonics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SphericalHarmonics.h; sourceTree = "<group>"; };
+		4EE9450122BCCEED008400CF /* MetalDevice.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MetalDevice.mm; sourceTree = "<group>"; };
+		4EE9450222BCCEED008400CF /* VectUtils.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = VectUtils.c; sourceTree = "<group>"; };
+		4EE9450322BCCEED008400CF /* SHCodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCodes.h; sourceTree = "<group>"; };
+		4EE9450422BCCEED008400CF /* SphericalHarmonics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SphericalHarmonics.m; sourceTree = "<group>"; };
+		4EE9450522BCCEED008400CF /* SphericalHarmonics.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = SphericalHarmonics.metal; sourceTree = "<group>"; };
+		4EE9450622BCCEED008400CF /* VectUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VectUtils.h; sourceTree = "<group>"; };
+		4EE9450722BCCEED008400CF /* SHCodes.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SHCodes.c; sourceTree = "<group>"; };
+		4EE9450822BCCEED008400CF /* MetalDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetalDevice.h; sourceTree = "<group>"; };
+		4EE9450A22BCCEED008400CF /* SH_python_wrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SH_python_wrapper.h; sourceTree = "<group>"; };
+		4EE9451222BCCF19008400CF /* libpython3.7m.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libpython3.7m.dylib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EE944F122BCCEBA008400CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE9451322BCCF19008400CF /* libpython3.7m.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EE944EB22BCCEBA008400CF = {
+			isa = PBXGroup;
+			children = (
+				4EE944F622BCCEBA008400CF /* SphericalHarmonicsMetalPython */,
+				4EE944F522BCCEBA008400CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EE944F522BCCEBA008400CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EE944F422BCCEBA008400CF /* SphericalHarmonicsMetalPython.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EE944F622BCCEBA008400CF /* SphericalHarmonicsMetalPython */ = {
+			isa = PBXGroup;
+			children = (
+				4EE944FD22BCCEED008400CF /* SphericalHarmonics */,
+				4EE944F722BCCEBA008400CF /* Info.plist */,
+				4EE9451222BCCF19008400CF /* libpython3.7m.dylib */,
+			);
+			path = SphericalHarmonicsMetalPython;
+			sourceTree = "<group>";
+		};
+		4EE944FD22BCCEED008400CF /* SphericalHarmonics */ = {
+			isa = PBXGroup;
+			children = (
+				4EE944FE22BCCEED008400CF /* SH_python_wrapper.m */,
+				4EE9450A22BCCEED008400CF /* SH_python_wrapper.h */,
+				4EE944FF22BCCEED008400CF /* SH */,
+			);
+			path = SphericalHarmonics;
+			sourceTree = "<group>";
+		};
+		4EE944FF22BCCEED008400CF /* SH */ = {
+			isa = PBXGroup;
+			children = (
+				4EE9450022BCCEED008400CF /* SphericalHarmonics.h */,
+				4EE9450422BCCEED008400CF /* SphericalHarmonics.m */,
+				4EE9450522BCCEED008400CF /* SphericalHarmonics.metal */,
+				4EE9450122BCCEED008400CF /* MetalDevice.mm */,
+				4EE9450822BCCEED008400CF /* MetalDevice.h */,
+				4EE9450222BCCEED008400CF /* VectUtils.c */,
+				4EE9450622BCCEED008400CF /* VectUtils.h */,
+				4EE9450322BCCEED008400CF /* SHCodes.h */,
+				4EE9450722BCCEED008400CF /* SHCodes.c */,
+			);
+			path = SH;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EE944F322BCCEBA008400CF /* SphericalHarmonicsMetalPython */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EE944FA22BCCEBA008400CF /* Build configuration list for PBXNativeTarget "SphericalHarmonicsMetalPython" */;
+			buildPhases = (
+				4EE944F022BCCEBA008400CF /* Sources */,
+				4EE944F122BCCEBA008400CF /* Frameworks */,
+				4EE944F222BCCEBA008400CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SphericalHarmonicsMetalPython;
+			productName = SphericalHarmonicsMetalPython;
+			productReference = 4EE944F422BCCEBA008400CF /* SphericalHarmonicsMetalPython.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EE944EC22BCCEBA008400CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = voicesync;
+				TargetAttributes = {
+					4EE944F322BCCEBA008400CF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4EE944EF22BCCEBA008400CF /* Build configuration list for PBXProject "SphericalHarmonicsMetalPython" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4EE944EB22BCCEBA008400CF;
+			productRefGroup = 4EE944F522BCCEBA008400CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EE944F322BCCEBA008400CF /* SphericalHarmonicsMetalPython */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EE944F222BCCEBA008400CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EE944F022BCCEBA008400CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EE9450B22BCCEED008400CF /* SH_python_wrapper.m in Sources */,
+				4EE9450C22BCCEED008400CF /* MetalDevice.mm in Sources */,
+				4EE9450E22BCCEED008400CF /* SphericalHarmonics.m in Sources */,
+				4EE9451022BCCEED008400CF /* SHCodes.c in Sources */,
+				4EE9450D22BCCEED008400CF /* VectUtils.c in Sources */,
+				4EE9450F22BCCEED008400CF /* SphericalHarmonics.metal in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4EE944F822BCCEBA008400CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4EE944F922BCCEBA008400CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/include/python3.7m/;
+				LIBRARY_SEARCH_PATHS = /usr/local/Cellar/python/3.7.3/Frameworks/Python.framework/Versions/3.7/lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4EE944FB22BCCEBA008400CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ALFNML2A4Q;
+				INFOPLIST_FILE = SphericalHarmonicsMetalPython/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SphericalHarmonicsMetalPython",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = voicesync.SphericalHarmonicsMetalPython;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4EE944FC22BCCEBA008400CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = ALFNML2A4Q;
+				INFOPLIST_FILE = SphericalHarmonicsMetalPython/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SphericalHarmonicsMetalPython",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = voicesync.SphericalHarmonicsMetalPython;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EE944EF22BCCEBA008400CF /* Build configuration list for PBXProject "SphericalHarmonicsMetalPython" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE944F822BCCEBA008400CF /* Debug */,
+				4EE944F922BCCEBA008400CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EE944FA22BCCEBA008400CF /* Build configuration list for PBXNativeTarget "SphericalHarmonicsMetalPython" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE944FB22BCCEBA008400CF /* Debug */,
+				4EE944FC22BCCEBA008400CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4EE944EC22BCCEBA008400CF /* Project object */;
+}
